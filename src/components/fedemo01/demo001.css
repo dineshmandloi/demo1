@@ -1,0 +1,7 @@
+.demo001{
+    display: flex;
+    justify-content: space-between;
+}
+.items001{
+    border: 1px solid;
+}

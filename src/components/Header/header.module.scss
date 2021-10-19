@@ -1,0 +1,38 @@
+
+@mixin man-con{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container{
+    @include man-con;
+}
+.flex_direction{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.navbar{
+background-color: black;
+.logo{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 90px;
+    a{
+        color: white;
+        text-decoration: none;
+    }
+}
+ul{
+    display: flex; 
+    list-style: none;
+    
+    li{
+        color: white;
+        padding: 10px 10px;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+}
+}
